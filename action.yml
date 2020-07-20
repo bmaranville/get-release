@@ -1,6 +1,10 @@
 name: 'Get the upload URL for a release'
 description: 'Get the upload URL for a release for a tag in your repository'
 author: 'GitHub'
+inputs:
+  tag:  # id of input
+    description: 'Specify tag instead of using checkout tag'
+    required: false
 outputs:
   id:
     description: 'The ID of the Release'
